@@ -120,3 +120,11 @@ button {
 .quote .author {
     align-self: flex-end;
 }
+
+.footer {
+    color: whitesmoke;
+    background-color: midnightblue;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
