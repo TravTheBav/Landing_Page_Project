@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-    background-color: midnightblue;
+    background-color: #1f2937;
     color: whitesmoke;
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@ li {
 
 .intro-card {
     color: whitesmoke;
-    background-color: midnightblue;
+    background-color: #1f2937;
     display: flex;
     min-height: fit-content;
     max-height: 400px;
@@ -88,7 +88,7 @@ button {
 
 .information {
     background-color: whitesmoke;
-    color: #222;
+    color: #1f2937;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,10 +121,30 @@ button {
     align-self: flex-end;
 }
 
+.inner-card {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 5% 25%;
+    border-radius: 8px;    
+}
+
+.inner-card .text-box {
+    padding: 20px 40px;
+    border-radius: 8px;        
+}
+
 .footer {
     color: whitesmoke;
-    background-color: midnightblue;
+    background-color: #1f2937;
     text-align: center;
     padding-top: 4px;
     padding-bottom: 4px;
+}
+
+#bottom-signup {
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
 }
